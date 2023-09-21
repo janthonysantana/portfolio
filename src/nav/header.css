@@ -1,0 +1,23 @@
+
+header {
+    display: flex;
+    /* margin-top: 2vh; */
+}
+
+header a {
+    text-decoration: none;
+} 
+
+header h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 60px;    
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+} 
+
+.header-list__item {
+    margin: 0vh 2vw
+}
