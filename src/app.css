@@ -12,6 +12,10 @@ main {
   flex: 1;
 }
 
+main section {
+  margin: 5vh 0;
+}
+
 #app {
   display: flex;
   flex-direction: column;
