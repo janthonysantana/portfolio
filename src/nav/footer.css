@@ -19,4 +19,10 @@ footer p {
 .footer-list li {
     font-size: 64px;
     margin: 0vw 2vw;
+    color:black
+}
+
+
+.footer-list li:hover {
+    color: #8fd1bd;
 }
