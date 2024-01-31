@@ -5,10 +5,8 @@ export const Projects = () => {
             <ul>
                 <li>HandyDesk</li>
                 <li>Chalkley</li>
-                <li>Fai</li>
+                <li>Nemoniko</li>
                 <li>Costa</li>
-                <li>Blinkers</li>
-                <li>Effiquest</li>
             </ul>
         </section>
     )
