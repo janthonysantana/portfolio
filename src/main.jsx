@@ -23,6 +23,5 @@ const Main = () => {
     )
 }
 
-console.log("Happy 2024!");
 render(<Main />, document.getElementById('app'))
 // render(<Main />, document.body);
