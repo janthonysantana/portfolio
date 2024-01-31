@@ -6,7 +6,7 @@ export const Header = () => {
 
     return (
         <header>
-            <Link activeClassName='active' href='/'><h1>J Anthony Santana</h1></Link>
+            <Link activeClassName='active' href='https://janthonysantana.com'><h1>J Anthony Santana</h1></Link>
         </header>
     )
 }
