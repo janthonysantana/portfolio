@@ -1,6 +1,4 @@
 import './header.css';
-import { Link } from 'preact-router/match'
-
 export const Header = () => {
     const host = window.location.host;
 

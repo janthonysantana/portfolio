@@ -1,7 +1,7 @@
-import { h, render } from 'preact'
-import Router from 'preact-router';
+import { createRoot } from 'react-dom/client';
 import './app.css'
 
+import { Link, Route, Switch } from "wouter";
 import { Home } from './pages/Home.jsx'
 import { AboutMe } from './pages/AboutMe.jsx'
 import { Projects } from './pages/Projects.jsx'
@@ -23,5 +23,6 @@ const Main = () => {
     )
 }
 
-render(<Main />, document.getElementById('app'))
-// render(<Main />, document.body);
+document.body.innerHTML = '<div id="app"></div>';
+const root = createRoot(document.getElementById('app'));
+root.render(<Main />);
